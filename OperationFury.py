@@ -17,4 +17,4 @@ print("\nOperation Furry's Operation System Is Booting Up")
 
 for i in range(2):
     print("Os Booting Up")
-    sleep(3)
+    sleep(2)
