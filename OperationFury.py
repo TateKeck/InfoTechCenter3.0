@@ -8,8 +8,13 @@ Our Welcome Screen Will Start Our Program Letting
 """
 
 #Import Libraries Here
-from time import sleep#We imported the sleep function frome the time library
+from time import sleep #We imported the sleep function from the time library
 
-print("\n\nwelcome to Operation Furry InfoTechCenter")
+
+print("\n\nwelcome to Operation Furry InfoTechCenter ")
 sleep(2)
 print("\nOperation Furry's Operation System Is Booting Up")
+
+for i in range(2):
+    print("Os Booting Up")
+    sleep(3)
