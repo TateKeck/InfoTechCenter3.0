@@ -10,3 +10,8 @@ Define a function to check our gas gauge and determine how far
 
 # import library here
 import random
+
+# gas level funcion
+
+def gaslevelgauge():
+    
