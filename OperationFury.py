@@ -1,15 +1,8 @@
 
-# Welcome Screen
-# developer: Tate Keck
-#Version: 1.0
-
-"""
-Our Welcome Screen Will Start Our Program Letting
- Drivers Know That The InfoTechCenter OS is loading
-"""
-
 #Import Libraries Here
 from time import sleep #We imported the sleep function from the time library
+
+import random
 
 
 print("\n\nwelcome to Operation Furry InfoTechCenter ")
@@ -35,8 +28,8 @@ is picking from a list _ using lf, elif and else statements
 to check the condition and print a specific
 """
 
-# Import Libraries here
-import random
+
+
 
 # Weather condition using the random.choice library
 # to randomly choose a condition and storing it in its brain
@@ -45,8 +38,10 @@ def weather():
     WeatherCondition = random.choice(WeatherForcast)
     return WeatherCondition
 weatherAlert = weather()
+print(weatherAlert)
 
-def vehicleresponsesystem():
+def vrs():
+
     if weatherAlert == "Icy":
         print("\nVRS has changed your Alarm 30 minutes earlier based on the NWS forcast of",weatherAlert)
         print("VRS will only allow your car to go 30 MPH")
@@ -70,3 +65,4 @@ def vehicleresponsesystem():
         print("VRS will only allow your car to go 100 MPH")
 
 
+vrs()
