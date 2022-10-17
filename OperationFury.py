@@ -41,7 +41,6 @@ weatherAlert = weather()
 print(weatherAlert)
 
 def vrs():
-
     if weatherAlert == "Icy":
         print("\nVRS has changed your Alarm 30 minutes earlier based on the NWS forcast of",weatherAlert)
         print("VRS will only allow your car to go 30 MPH")
@@ -72,9 +71,7 @@ Define a function to check our gas gauge and determine how far
  condition
 """
 
-# import library here
-import random
-from time import sleep
+
 # gas level funcion
 
 def gaslevelgauge():
@@ -116,6 +113,6 @@ def gaslevelAlert():
     else:
         print("\nYour gas tank is full. Have a safe drive")
 
-
-
-
+# call funcions here
+vrs()
+gaslevelAlert()
